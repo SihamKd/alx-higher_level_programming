@@ -1,8 +1,7 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 """
-Created Sat 
-
+Creates on Sat Sep 02
 """
 
 
