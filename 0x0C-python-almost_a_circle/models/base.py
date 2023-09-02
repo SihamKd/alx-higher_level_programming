@@ -109,6 +109,6 @@ class Base:
                 json_obj = cls.from_json_string(file.read())
             for key, value in enumerate(json_obj):
                 json_obj[key] = cls.create(**json_obj[key])
-        except:
+        except Exception as e:
             pass
         return json_obj
